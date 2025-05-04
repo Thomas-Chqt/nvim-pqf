@@ -68,9 +68,13 @@ function M.format(info)
   local pad_to = 0
   local type_mapping = {
     E = signs.error,
+    e = signs.error,
     W = signs.warning,
+    w = signs.warning,
     I = signs.info,
+    i = signs.info,
     N = signs.hint,
+    n = signs.hint,
   }
 
   local items = {}
