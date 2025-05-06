@@ -163,7 +163,7 @@ function M.format(info)
 
     -- Optionally show multiple lines joined with single space
     if show_multiple_lines then
-      text = fn.substitute(item.text, '\n\\s*', ' ', 'g')
+      text = fn.substitute(item.text, '\n\\s*', '', 'g')
     end
 
     text = fn.trim(text)
